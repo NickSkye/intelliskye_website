@@ -1,0 +1,37 @@
+section.process {
+    .process__container {
+        position: relative;
+        padding: 70px 0;
+        text-align: center;
+        background-color: #F8EFEB;
+        h3 {
+            font-family: "Times New Roman", serif;
+            color: #C47752;
+            max-width: 800px;
+            font-size: 33px;
+            margin: 0 auto;
+            line-height: 45px;
+            margin-bottom: 25px
+        }
+        p {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        img {
+            width: 60px;
+            position: absolute;
+            bottom: -26px;
+            left: 0;
+            right: 0;
+            margin: auto auto;
+            z-index: 1;
+        }
+        &:nth-child(3),
+        &:nth-child(6) {
+            background-color: white;
+        }
+    }
+    .image img {
+        width: 100%;
+    }
+}
