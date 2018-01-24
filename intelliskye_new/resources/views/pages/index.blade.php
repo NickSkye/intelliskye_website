@@ -1,7 +1,7 @@
 @extends('layouts.layout')
 
 @section('content')
-    <div class="page-generic">
+    <div class="page-generic themeone">
         <div class="container-fluid ">
             <div class="row">
                 <div class="col-xs-12">
@@ -16,15 +16,27 @@
                         <!-- Wrapper for slides -->
                         <div class="carousel-inner">
                             <div class="item active">
-                                <img src="/images/firstslide.jpg" alt="Los Angeles">
+                                <img src="/images/firstslide.jpg" alt="Intelliskye">
+                                <div class="carousel-caption">
+                                    <h3>Intelliskye</h3>
+                                    <p>Learn about our latest projects</p>
+                                </div>
                             </div>
 
                             <div class="item">
-                                <img src="/images/secondslide.jpg" alt="Chicago">
+                                <img src="/images/secondslide.jpg" alt="Intelliskye">
+                                <div class="carousel-caption">
+                                    <h3>Intelliskye</h3>
+                                    <p>Click here to start your journey</p>
+                                </div>
                             </div>
 
                             <div class="item">
-                                <img src="/images/thirdslide.jpg" alt="New York">
+                                <img src="/images/thirdslide.jpg" alt="Intelliskye">
+                                <div class="carousel-caption">
+                                    <h3>Intelliskye</h3>
+                                    <p>Learn more about our company</p>
+                                </div>
                             </div>
                         </div>
 
@@ -205,7 +217,7 @@
             <div class="col-sm-12">
                 <div class="about__block--container">
                     <div class="about__block container">
-                        <div class="content__block col-md-6" data-aos="fade-up">
+                        <div class="content__block col-md-6" data-aos="fade-up" data-aos-delay="300">
                             <h2><br>Intelliskye<br>Software.</h2>
                             <p>The best software is necessary to achieve your goals. Here at intelliskye we have what it takes to make your dreams become a reality. We will never stop fighting for you. Youre going to like the way you look, I guaruntee it.</p>
                         </div>
@@ -221,12 +233,12 @@
             <div class="col-sm-12">
                 <div class="about__block--container">
                     <div class="about__block container">
-                        <div class="content__block col-md-6">
+                        <div class="content__block col-md-6" data-aos="fade-up" data-aos-delay="300">
                             <h2><br>Intelliskye<br>Software.</h2>
                             <p>The best software is necessary to achieve your goals. Here at intelliskye we have what it takes to make your dreams become a reality. We will never stop fighting for you. Youre going to like the way you look, I guaruntee it.</p>
 
                         </div>
-                        <div class="image col-md-6" data-aos="fade-up">
+                        <div class="image col-md-6" data-aos="fade-up" data-aos-delay="300">
                             <img src="/images/firstslide.jpg" alt="" data-aos="flip-left" data-aos-delay="200" data-aos-easing="ease-in-sine">
                         </div>
 
