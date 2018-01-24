@@ -1,8 +1,9 @@
 header {
     height: 80px;
     width: 100%;
-    background-color: $color-top-level;
+    background-color: $color-body;
     position: relative;
+    //box-shadow: 5px 10px 8px 10px #888888;
     a.brand {
         img {
             width: 240px;

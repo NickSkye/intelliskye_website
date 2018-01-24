@@ -1,4 +1,4 @@
-<header class="themeone">
+<header class="themeone keep-menu">
 	<div class="container">
 		<a href="/" class="brand"><img src="/images/IntelliSkyeWebsiteDarkBlue.png" alt=""></a>
 		<div class="menu__toggle">
@@ -8,7 +8,7 @@
 		</div>
 	</div>
 </header>
-<div class="mobile__menu">
+<div class="mobile__menu keep-menu">
 	<div class="close">
       <span class="top"></span>
       <span class="bottom"></span>
@@ -27,7 +27,7 @@
     	</div>
     </div>
 </div>
-<div class="desktop__navigation">
+<div class="desktop__navigation keep-menu">
 	<nav>
 		<ul>
 			<li><a href="/">Home</a></li>

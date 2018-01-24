@@ -18,6 +18,11 @@ html {
   overflow-x: hidden;
 }
 
+.shadowdiv {
+  -webkit-box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+          box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+}
+
 .full-width {
   width: 101% !important;
 }
@@ -185,6 +190,25 @@ html {
   max-height: 700px;
 }
 
+.fixed {
+  position: fixed !important;
+  top: 0;
+  z-index: 90;
+}
+
+.box-shadow:after {
+  content: '';
+  display: block;
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  -webkit-box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+          box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+}
+
 footer {
   background-color: black;
 }
@@ -286,7 +310,7 @@ footer .page-generic {
 header {
   height: 80px;
   width: 100%;
-  background-color: #000;
+  background-color: #062F4F;
   position: relative;
 }
 
@@ -545,6 +569,11 @@ header .menu__toggle span.bottom {
   width: 100%;
 }
 
+section.about.crystals .about__block--container:nth-child(odd) .about__block {
+  -webkit-box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+          box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+}
+
 section.about.crystals .about__block--container:nth-child(odd) .about__block h2 {
   text-align: center;
   color: #B82601;
@@ -587,6 +616,8 @@ section.about.crystals .about__block--container:nth-child(3) .about__block p {
 
 @media (min-width: 992px) {
   section.about.crystals .about__block--container:nth-child(3) .about__block {
+    -webkit-box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+            box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
@@ -609,6 +640,11 @@ section.about.crystals .banner {
   background-color: #C47752;
   text-align: center;
   color: #fff;
+}
+
+section.about.rejuvenation .about__block {
+  -webkit-box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+          box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
 }
 
 section.about.rejuvenation .about__block:nth-child(even) {
@@ -656,6 +692,8 @@ section.about .about__block--container:nth-child(even) {
 }
 
 section.about .about__block {
+  -webkit-box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+          box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
   padding: 25px 0;
   text-align: center;
   margin: 0 auto !important;

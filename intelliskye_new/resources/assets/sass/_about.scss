@@ -1,8 +1,10 @@
 section.about {
     &.crystals {
         .about__block--container {
+
             &:nth-child(odd) {
                 .about__block {
+                    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
                     h2 {
                         text-align: center;
                         color: $color-accent;
@@ -37,6 +39,7 @@ section.about {
             @media (min-width: 992px) {
                 &:nth-child(3) {
                     .about__block {
+                        box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
                         flex-direction: column;
                         .content__block {
                             right: 0;
@@ -60,6 +63,7 @@ section.about {
     }
     &.rejuvenation {
         .about__block {
+            box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
             &:nth-child(even) {
                 background-color: #F8EFEB;
             }
@@ -98,6 +102,7 @@ section.about {
         }
     }
     .about__block {
+        box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
         padding: 25px 0;
         text-align: center;
         margin: 0 auto !important;

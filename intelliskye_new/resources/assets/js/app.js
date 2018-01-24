@@ -31,3 +31,20 @@ $(document).ready(function() {
 // const app = new Vue({
 //     el: '#app'
 // });
+
+//action when scrolled
+$(window).bind('scroll', function () {
+    if ($(window).scrollTop() > 50) {
+        $('.keep-menu').addClass('fixed');
+        $('.keep-menu').addClass('box-shadow');
+
+
+
+    } else {
+
+
+        $('.keep-menu').removeClass('fixed');
+        $('.keep-menu').removeClass('box-shadow');
+
+    }
+});
