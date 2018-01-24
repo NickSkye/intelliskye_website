@@ -1,4 +1,4 @@
-<header>
+<header class="themeone">
 	<div class="container">
 		<a href="/" class="brand"><img src="/images/IntelliSkyeWebsiteDarkBlue.png" alt=""></a>
 		<div class="menu__toggle">
