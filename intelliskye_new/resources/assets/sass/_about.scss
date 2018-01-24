@@ -5,6 +5,7 @@ section.about {
                 .about__block {
                     h2 {
                         text-align: center;
+                        color: $color-accent;
                     }
                     .image {
                         width: 75%;
@@ -30,6 +31,7 @@ section.about {
                 .about__block h2,
                 .about__block p {
                     text-align: right;
+                    color: $color-accent;
                 }
             }
             @media (min-width: 992px) {
@@ -102,7 +104,9 @@ section.about {
         h2 {
             font-family: "Times New Roman", serif;
             font-size: 35px;
-            color: #C47752;
+
+                color: $color-accent !important;
+
         }
         .image img {
             max-width: 75%;
@@ -128,6 +132,9 @@ section.about {
             transform: translateY(-50%);
             width: 40%;
             float: left;
+            h2{
+                color: $color-accent !important;
+            }
         }
         .image img {
             width: 300px;

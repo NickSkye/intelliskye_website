@@ -1,7 +1,7 @@
 header {
     height: 80px;
     width: 100%;
-    background-color: black;
+    background-color: $color-top-level;
     position: relative;
     a.brand {
         img {
@@ -39,7 +39,7 @@ header {
 
 .mobile__menu {
     position: fixed;
-    background: black;
+    background: $color-top-level;
     top: 0;
     right: 0;
     left: 0;

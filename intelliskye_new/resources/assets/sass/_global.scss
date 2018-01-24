@@ -1,15 +1,24 @@
 //Themes
-.themeone{
-
-        background-color: #0E0B16 !important;
-
-    color: #E7DFDD !important;
-
-}
+//.themeone{
+//
+//        background-color: #0E0B16 !important;
+//
+//    color: #E7DFDD !important;
+//
+//}
 
 
 body {
     height: 100%;
+    background-color: $color-body !important;
+    p{
+        color: $color-text;
+    }
+
+
+    h2{
+        color: $color-accent;
+    }
 }
 body,
 html {
@@ -246,6 +255,7 @@ footer .page-generic {
 
 .parallax {
     /* The image used */
+
     &.paraone{
         background-image: url("/images/img_parallax.jpg");
     }
@@ -254,10 +264,11 @@ footer .page-generic {
     }
     &.parathree{
         background-image: url("/images/para2.jpg");
+        min-height: 700px;
     }
 
     /* Set a specific height */
-    min-height: 500px;
+    min-height: 300px;
 
     /* Create the parallax scrolling effect */
     background-attachment: fixed;

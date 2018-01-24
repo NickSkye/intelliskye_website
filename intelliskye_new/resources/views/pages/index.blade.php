@@ -217,11 +217,11 @@
             <div class="col-sm-12">
                 <div class="about__block--container">
                     <div class="about__block container">
-                        <div class="content__block col-md-6" data-aos="fade-up" data-aos-delay="300">
+                        <div class="content__block col-md-4" data-aos="fade-up" data-aos-delay="300">
                             <h2><br>Intelliskye<br>Software.</h2>
                             <p>The best software is necessary to achieve your goals. Here at intelliskye we have what it takes to make your dreams become a reality. We will never stop fighting for you. Youre going to like the way you look, I guaruntee it.</p>
                         </div>
-                        <div class="image col-md-6">
+                        <div class="image col-md-6 col-md-offset-2">
                             <img src="/images/thirdslide.jpg" alt="" data-aos="flip-left" data-aos-delay="200" data-aos-easing="ease-in-sine">
                         </div>
                     </div>
@@ -233,12 +233,12 @@
             <div class="col-sm-12">
                 <div class="about__block--container">
                     <div class="about__block container">
-                        <div class="content__block col-md-6" data-aos="fade-up" data-aos-delay="300">
+                        <div class="content__block col-md-4" data-aos="fade-up" data-aos-delay="300">
                             <h2><br>Intelliskye<br>Software.</h2>
                             <p>The best software is necessary to achieve your goals. Here at intelliskye we have what it takes to make your dreams become a reality. We will never stop fighting for you. Youre going to like the way you look, I guaruntee it.</p>
 
                         </div>
-                        <div class="image col-md-6" data-aos="fade-up" data-aos-delay="300">
+                        <div class="image col-md-6 col-md-offset-2" data-aos="fade-up" data-aos-delay="300">
                             <img src="/images/firstslide.jpg" alt="" data-aos="flip-left" data-aos-delay="200" data-aos-easing="ease-in-sine">
                         </div>
 
