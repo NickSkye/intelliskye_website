@@ -272,6 +272,35 @@ footer .page-generic {
     }
 }
 
+.slide-in-left {
+    transition: 1.5s transform ease-in-out;
+
+    transform: translateY(100%);
+
+    &.activated {
+        transform: translateY(0);
+    }
+}
+
+.slide-in-right {
+    transition: 1.5s transform ease-in-out;
+
+    transform: translateX(-100%);
+
+    &.activated {
+        transform: translateX(0);
+    }
+}
+
+.slide-down {
+    transition: 1000ms transform ease-in-out;
+
+    transform: translateY(-300%);
+
+    &.activated {
+        transform: translateY(0);
+    }
+}
 
 .hexagon{
     -webkit-clip-path: polygon(73% 0, 100% 50%, 77% 100%, 22% 100%, 0 50%, 27% 0);
@@ -295,6 +324,18 @@ footer .page-generic {
     &.parathree{
         background-image: url("/images/para2.jpg");
         min-height: 700px;
+    }
+    &.parafour{
+         background-image: url("/images/skyebg.jpg");
+         min-height: 800px;
+     }
+    &.parafive{
+        background-image: url("/images/nightskye.jpg");
+        min-height: 800px;
+    }
+    &.parasix{
+        background-image: url("/images/oceansky.jpg");
+        min-height: 800px;
     }
 
     /* Set a specific height */

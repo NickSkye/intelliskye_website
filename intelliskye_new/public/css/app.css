@@ -227,6 +227,48 @@ footer .page-generic {
   }
 }
 
+.slide-in-left {
+  -webkit-transition: 1.5s -webkit-transform ease-in-out;
+  transition: 1.5s -webkit-transform ease-in-out;
+  transition: 1.5s transform ease-in-out;
+  transition: 1.5s transform ease-in-out, 1.5s -webkit-transform ease-in-out;
+  -webkit-transform: translateY(100%);
+          transform: translateY(100%);
+}
+
+.slide-in-left.activated {
+  -webkit-transform: translateY(0);
+          transform: translateY(0);
+}
+
+.slide-in-right {
+  -webkit-transition: 1.5s -webkit-transform ease-in-out;
+  transition: 1.5s -webkit-transform ease-in-out;
+  transition: 1.5s transform ease-in-out;
+  transition: 1.5s transform ease-in-out, 1.5s -webkit-transform ease-in-out;
+  -webkit-transform: translateX(-100%);
+          transform: translateX(-100%);
+}
+
+.slide-in-right.activated {
+  -webkit-transform: translateX(0);
+          transform: translateX(0);
+}
+
+.slide-down {
+  -webkit-transition: 1000ms -webkit-transform ease-in-out;
+  transition: 1000ms -webkit-transform ease-in-out;
+  transition: 1000ms transform ease-in-out;
+  transition: 1000ms transform ease-in-out, 1000ms -webkit-transform ease-in-out;
+  -webkit-transform: translateY(-300%);
+          transform: translateY(-300%);
+}
+
+.slide-down.activated {
+  -webkit-transform: translateY(0);
+          transform: translateY(0);
+}
+
 .hexagon {
   -webkit-clip-path: polygon(73% 0, 100% 50%, 77% 100%, 22% 100%, 0 50%, 27% 0);
   clip-path: polygon(73% 0, 100% 50%, 77% 100%, 22% 100%, 0 50%, 27% 0);
@@ -259,6 +301,21 @@ footer .page-generic {
 .parallax.parathree {
   background-image: url("/images/para2.jpg");
   min-height: 700px;
+}
+
+.parallax.parafour {
+  background-image: url("/images/skyebg.jpg");
+  min-height: 800px;
+}
+
+.parallax.parafive {
+  background-image: url("/images/nightskye.jpg");
+  min-height: 800px;
+}
+
+.parallax.parasix {
+  background-image: url("/images/oceansky.jpg");
+  min-height: 800px;
 }
 
 .bottom-left {

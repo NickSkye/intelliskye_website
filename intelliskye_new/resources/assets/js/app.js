@@ -5,19 +5,9 @@
  */
 
 require('./bootstrap');
-import AOS from 'aos';
-$(document).ready(function() {
-    $('header .menu__toggle').on('click', function() {
-        $('.mobile__menu').toggleClass('show__menu');
-        $('.mobile__menu.show__menu').fadeIn(400);
+require('./aosreq');
+require('./common');
 
-    });
-    $('.mobile__menu .close').on('click', function() {
-        $('.mobile__menu').removeClass('show__menu');
-    });
-    //AOS
-    AOS.init();
-});
 // window.Vue = require('vue');
 //
 // /**
@@ -31,20 +21,3 @@ $(document).ready(function() {
 // const app = new Vue({
 //     el: '#app'
 // });
-
-//action when scrolled
-$(window).bind('scroll', function () {
-    if ($(window).scrollTop() > 50) {
-        $('.keep-menu').addClass('fixed');
-        $('.keep-menu').addClass('box-shadow');
-
-
-
-    } else {
-
-
-        $('.keep-menu').removeClass('fixed');
-        $('.keep-menu').removeClass('box-shadow');
-
-    }
-});

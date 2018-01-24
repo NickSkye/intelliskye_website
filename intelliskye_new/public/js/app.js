@@ -754,9 +754,6 @@ module.exports = __webpack_require__(36);
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_aos__ = __webpack_require__(35);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_aos___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_aos__);
 /**
  * First we will load all of this project's JavaScript dependencies which
  * includes Vue and other libraries. It is a great starting point when
@@ -764,18 +761,9 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
  */
 
 __webpack_require__(9);
+__webpack_require__(48);
+__webpack_require__(47);
 
-$(document).ready(function () {
-    $('header .menu__toggle').on('click', function () {
-        $('.mobile__menu').toggleClass('show__menu');
-        $('.mobile__menu.show__menu').fadeIn(400);
-    });
-    $('.mobile__menu .close').on('click', function () {
-        $('.mobile__menu').removeClass('show__menu');
-    });
-    //AOS
-    __WEBPACK_IMPORTED_MODULE_0_aos___default.a.init();
-});
 // window.Vue = require('vue');
 //
 // /**
@@ -789,18 +777,6 @@ $(document).ready(function () {
 // const app = new Vue({
 //     el: '#app'
 // });
-
-//action when scrolled
-$(window).bind('scroll', function () {
-    if ($(window).scrollTop() > 50) {
-        $('.keep-menu').addClass('fixed');
-        $('.keep-menu').addClass('box-shadow');
-    } else {
-
-        $('.keep-menu').removeClass('fixed');
-        $('.keep-menu').removeClass('box-shadow');
-    }
-});
 
 /***/ }),
 /* 9 */
@@ -31742,6 +31718,68 @@ module.exports = function spread(callback) {
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
+
+/***/ }),
+/* 37 */,
+/* 38 */,
+/* 39 */,
+/* 40 */,
+/* 41 */,
+/* 42 */,
+/* 43 */,
+/* 44 */,
+/* 45 */,
+/* 46 */,
+/* 47 */
+/***/ (function(module, exports) {
+
+$(document).ready(function () {
+    $('.animated').addClass('activated');
+});
+
+//action when scrolled
+$(window).bind('scroll', function () {
+    if ($(window).scrollTop() > 50) {
+        $('.keep-menu').addClass('fixed');
+        $('.keep-menu').addClass('box-shadow');
+    } else {
+
+        $('.keep-menu').removeClass('fixed');
+        $('.keep-menu').removeClass('box-shadow');
+    }
+});
+
+$(document).ready(function () {
+    $('header .menu__toggle').on('click', function () {
+        $('.mobile__menu').toggleClass('show__menu');
+        $('.mobile__menu.show__menu').fadeIn(400);
+    });
+    $('.mobile__menu .close').on('click', function () {
+        $('.mobile__menu').removeClass('show__menu');
+    });
+});
+
+/***/ }),
+/* 48 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_aos__ = __webpack_require__(35);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_aos___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_aos__);
+
+
+//AOS
+
+
+$(document).ready(function () {
+   // AOS.init();
+
+});
+
+$(window).bind('scroll', function () {
+   __WEBPACK_IMPORTED_MODULE_0_aos___default.a.init();
+});
 
 /***/ })
 /******/ ]);
