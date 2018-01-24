@@ -10,7 +10,7 @@ section.about {
                         width: 75%;
                         img {
                             max-width: none;
-                            width: 100%;
+                            width: 50%;
                             @media (min-width: 991px) {
                                 max-width: 85%;
                                 position: relative;
@@ -130,7 +130,7 @@ section.about {
             float: left;
         }
         .image img {
-            width: 550px;
+            width: 300px;
             display: inline-block;
         }
         &:nth-child(even) {

@@ -201,6 +201,75 @@ footer .page-generic {
   text-align: center;
 }
 
+.parallax {
+  /* The image used */
+  /* Set a specific height */
+  min-height: 500px;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.parallax.paraone {
+  background-image: url("/images/img_parallax.jpg");
+}
+
+.parallax.paratwo {
+  background-image: url("/images/para1.jpg");
+}
+
+.parallax.parathree {
+  background-image: url("/images/para2.jpg");
+}
+
+.bottom-left {
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+}
+
+/* Top left text */
+
+.top-left {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+}
+
+/* Top right text */
+
+.top-right {
+  position: absolute;
+  top: 75px;
+  right: 75px;
+}
+
+.mid-right {
+  position: absolute;
+  top: 50%;
+  right: 16px;
+}
+
+/* Bottom right text */
+
+.bottom-right {
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
+}
+
+/* Centered text */
+
+.centered-centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
 header {
   height: 80px;
   width: 100%;
@@ -473,7 +542,7 @@ section.about.crystals .about__block--container:nth-child(odd) .about__block .im
 
 section.about.crystals .about__block--container:nth-child(odd) .about__block .image img {
   max-width: none;
-  width: 100%;
+  width: 50%;
 }
 
 @media (min-width: 991px) {
@@ -620,7 +689,7 @@ section.about .about__block .image img {
   }
 
   section.about .about__block .image img {
-    width: 550px;
+    width: 300px;
     display: inline-block;
   }
 
