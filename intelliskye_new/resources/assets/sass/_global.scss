@@ -25,22 +25,22 @@ margin-bottom: 30px;
         margin-bottom: 50px;
     }
 
-    .right{
-
-        @media (min-width: 776px) {
-
-            margin-right: -60px;
-        }
-        @media (min-width: 990px) {
-
-            margin-right: -80px;
-        }
-
-        @media (min-width: 1200px) {
-
-            margin-right: -90px;
-        }
-    }
+    //.right{
+    //
+    //    @media (min-width: 776px) {
+    //
+    //        margin-right: -60px;
+    //    }
+    //    @media (min-width: 990px) {
+    //
+    //        margin-right: -80px;
+    //    }
+    //
+    //    @media (min-width: 1200px) {
+    //
+    //        margin-right: -90px;
+    //    }
+    //}
 
 
     .container-fluid {
@@ -117,7 +117,7 @@ margin-bottom: 30px;
     }
 
     .orange-top {
-        color: #C47752;
+        color: blue;
         font-family: Times New Roman, serif;
     } //for images with text on them. put class on text
     /* Bottom left text */
@@ -190,108 +190,19 @@ margin-bottom: 30px;
     }
 
     .carousel-inner {
-        -webkit-clip-path: polygon(73% 0, 100% 50%, 77% 100%, 22% 100%, 0 50%, 27% 0);
-        clip-path: polygon(73% 0, 100% 50%, 77% 100%, 22% 100%, 0 50%, 27% 0);
+        //-webkit-clip-path: polygon(73% 0, 100% 50%, 77% 100%, 22% 100%, 0 50%, 27% 0);
+        //clip-path: polygon(73% 0, 100% 50%, 77% 100%, 22% 100%, 0 50%, 27% 0);
+       //plane
+        //-webkit-clip-path: polygon(26% 66%, 8% 53%, 83% 11%, 36% 56%, 83% 11%, 61% 76%, 37% 64%, 36% 74%, 77% 17%);
+        //clip-path: polygon(26% 66%, 8% 53%, 83% 11%, 36% 56%, 83% 11%, 61% 76%, 37% 64%, 36% 74%, 77% 17%);
         @media (min-width: 767px){
-        width: 113%;
+       // width: 113%;
         }
     }
 
-    .carousel-indicators-top .active {
-        margin: 0;
-        width: 12px;
-        height: 12px;
-        background-color: black !important;
-    }
-    .carousel-control.left {
-        background-image: none !important;
-    }
 
-    .carousel-control.right {
-        background-image: none !important;
-    }
 }
 
-// Up Down Carousel
-.carousel.vertical .carousel-inner>.item {
-    -webkit-transition: .6s ease-in-out top;
-    -o-transition: .6s ease-in-out top;
-    transition: .6s ease-in-out top;
-}
-
-@media all and (transform-3d),
-(-webkit-transform-3d) {
-    .carousel.vertical .carousel-inner>.item {
-        -webkit-transition: -webkit-transform .6s ease-in-out;
-        -ms-transition: -ms-transform .6s ease-in-out;
-        -o-transition: -o-transform .6s ease-in-out;
-        transition: transform .6s ease-in-out;
-        -ms-backface-visibility: hidden;
-        -webkit-backface-visibility: hidden;
-        backface-visibility: hidden;
-        -ms-perspective: 1000;
-        -webkit-perspective: 1000;
-        perspective: 1000;
-    }
-    .carousel.vertical .carousel-inner>.item.next,
-    .carousel.vertical .carousel-inner>.item.active.right {
-        top: 0;
-        -ms-transform: translate3d(0, -100%, 0);
-        -webkit-transform: translate3d(0, -100%, 0);
-        transform: translate3d(0, -100%, 0);
-    }
-    .carousel.vertical .carousel-inner>.item.prev,
-    .carousel.vertical .carousel-inner>.item.active.left {
-        top: 0;
-        -ms-transform: translate3d(0, 100%, 0);
-        -webkit-transform: translate3d(0, 100%, 0);
-        transform: translate3d(0, 100%, 0);
-    }
-    .carousel.vertical .carousel-inner>.item.next.left,
-    .carousel.vertical .carousel-inner>.item.prev.right,
-    .carousel.vertical .carousel-inner>.item.active {
-        top: 0;
-        -ms-transform: translate3d(0, 0, 0);
-        -webkit-transform: translate3d(0, 0, 0);
-        transform: translate3d(0, 0, 0);
-    }
-}
-
-.carousel.vertical .carousel-inner>.active {
-    top: 0;
-}
-
-.carousel.vertical .carousel-inner>.next,
-.carousel.vertical .carousel-inner>.prev {
-    top: 0;
-    height: 100%;
-    width: 100%;
-}
-
-.carousel.vertical .carousel-inner>.next {
-    left: 0;
-    top: -100%;
-}
-
-.carousel.vertical .carousel-inner>.prev {
-    left: 0;
-    top: 100%
-}
-
-.carousel.vertical .carousel-inner>.next.left,
-.carousel.vertical .carousel-inner>.prev.right {
-    top: 0;
-}
-
-.carousel.vertical .carousel-inner>.active.left {
-    left: 0;
-    top: 100%;
-}
-
-.carousel.vertical .carousel-inner>.active.right {
-    left: 0;
-    top: -100%;
-}
 footer {
     // position: absolute;
     // bottom: 0;
@@ -309,4 +220,15 @@ footer .page-generic {
     .page-generic .carousel-indicators-top {
         display: none;
     }
+}
+
+
+.hexagon{
+    -webkit-clip-path: polygon(73% 0, 100% 50%, 77% 100%, 22% 100%, 0 50%, 27% 0);
+    clip-path: polygon(73% 0, 100% 50%, 77% 100%, 22% 100%, 0 50%, 27% 0);
+}
+
+.footer-logo{
+    max-width: 400px;
+    text-align: center;
 }

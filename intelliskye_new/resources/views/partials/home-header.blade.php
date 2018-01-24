@@ -1,6 +1,6 @@
 <header>
 	<div class="container">
-		<a href="/" class="brand"><img src="/images/3.png" alt=""></a>
+		<a href="/" class="brand"><img src="/images/IntelliSkyeWebsiteDarkBlue.png" alt=""></a>
 		<div class="menu__toggle">
 	      	<span class="top"></span>
 	        <span class="middle"></span>
@@ -15,13 +15,13 @@
     </div>
     <div class="menu">
     	<div class="mobile__nav--container">
-			<a href="/" class="brand"><img src="/images/3.png" alt=""></a>
+			<a href="/" class="brand"><img src="/images/IntelliSkyeWebsiteDarkBlue.png" alt=""></a>
     		<ul>
 				<li><a href="/">Home</a></li>
-    			<li><a href="/about-crystal">About Crystal Heat Therapy</a></li>
-    			<li><a href="/facility">Our Facility</a></li>
-    			<li><a href="/about-rejuvenation">About Rejuvenation Wellness</a></li>
-				<li><a href="/faq">FAQ</a></li>
+    			<li><a href="/about-crystal">About IntelliSkye</a></li>
+    			<li><a href="/facility">Our Projects</a></li>
+    			{{--<li><a href="/about-rejuvenation">About Rejuvenation Wellness</a></li>--}}
+				{{--<li><a href="/faq">FAQ</a></li>--}}
     			<li><a href="/contact">Contact</a></li>
     		</ul>
     	</div>
@@ -31,10 +31,10 @@
 	<nav>
 		<ul>
 			<li><a href="/">Home</a></li>
-			<li><a href="/about-crystal">About Crystal Heat Therapy</a></li>
-			<li><a href="/facility">Our Facility</a></li>
-			<li><a href="/about-rejuvenation">About Rejuvenation Wellness</a></li>
-			<li><a href="/faq">FAQ</a></li>
+			<li><a href="/about-crystal">About IntelliSkye</a></li>
+			<li><a href="/facility">Our Projects</a></li>
+			{{--<li><a href="/about-rejuvenation">About Rejuvenation Wellness</a></li>--}}
+			{{--<li><a href="/faq">FAQ</a></li>--}}
 			<li><a href="/contact">Contact</a></li>
 		</ul>
 	</nav>
