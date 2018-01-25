@@ -17,7 +17,7 @@
                         <div class="carousel-inner shadowdiv">
                             <div class="item active">
                                 <img src="/images/firstslide.jpg" alt="Intelliskye">
-                                <div class="carousel-caption">
+                                <div class="carousel-caption centered-centered">
                                     <h3>Intelliskye</h3>
                                     <p>Learn about our latest projects</p>
                                 </div>
@@ -25,7 +25,7 @@
 
                             <div class="item">
                                 <img src="/images/secondslide.jpg" alt="Intelliskye">
-                                <div class="carousel-caption">
+                                <div class="carousel-caption centered-centered">
                                     <h3>Intelliskye</h3>
                                     <p>Click here to start your journey</p>
                                 </div>
@@ -33,7 +33,7 @@
 
                             <div class="item">
                                 <img src="/images/thirdslide.jpg" alt="Intelliskye">
-                                <div class="carousel-caption">
+                                <div class="carousel-caption centered-centered">
                                     <h3>Intelliskye</h3>
                                     <p>Learn more about our company</p>
                                 </div>
