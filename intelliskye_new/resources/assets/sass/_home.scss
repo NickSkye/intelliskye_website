@@ -5,3 +5,35 @@
         }
     }
 }
+
+
+#whatwedo{
+
+    transition: 1s transform ease-in-out;
+
+    transform: translateX(200%);
+    width: 100%;
+
+
+    z-index: 1004;
+
+    &.activated{
+        transform: translateX(0%);
+    }
+}
+
+
+
+.pull-out-container{
+    z-index: 300;
+    background-color: black;
+
+    height: 300px !important;
+    position: absolute;
+
+    p, ul{
+        color: white;
+
+    }
+}
+

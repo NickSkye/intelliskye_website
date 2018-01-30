@@ -1,5 +1,61 @@
 $(document).ready(function () {
     $('.animated').addClass('activated');
+
+    $( "#whatwedobutton" ).click(function() {
+        $('#whatwedo').addClass('activated');
+
+    });
+
+    $( "#whatwedo" ).click(function() {
+        $('#whatwedo').removeClass('activated');
+    });
+
+    $( "#emponebutton" ).click(function() {
+        $('.pull-out-container').removeClass('activated');
+        $('.image').removeClass('activated');
+        $('#empone').addClass('activated');
+        $('#emponebutton').addClass('activated');
+
+
+    });
+
+    $( "#empone" ).click(function() {
+        $('.pull-out-container').removeClass('activated');
+        $('.image').removeClass('activated');
+        $('#empone').removeClass('activated');
+        $('#emponebutton').removeClass('activated');
+
+    });
+
+    $( "#emptwobutton" ).click(function() {
+        $('.pull-out-container').removeClass('activated');
+        $('.image').removeClass('activated');
+        $('#emptwo').addClass('activated');
+        $('#emptwobutton').addClass('activated');
+
+    });
+
+    $( "#emptwo" ).click(function() {
+        $('.pull-out-container').removeClass('activated');
+        $('.image').removeClass('activated');
+        $('#emptwo').removeClass('activated');
+        $('#emptwobutton').removeClass('activated');
+    });
+
+    $( "#empthreebutton" ).click(function() {
+        $('.pull-out-container').removeClass('activated');
+        $('.image').removeClass('activated');
+        $('#empthree').addClass('activated');
+        $('#empthreebutton').addClass('activated');
+
+    });
+
+    $( "#empthree" ).click(function() {
+        $('.pull-out-container').removeClass('activated');
+        $('.image').removeClass('activated');
+        $('#empthree').removeClass('activated');
+        $('#empthreebutton').removeClass('activated');
+    });
 });
 
 //action when scrolled
@@ -31,3 +87,4 @@ $(document).ready(function() {
     });
 
 });
+

@@ -29,6 +29,10 @@ html {
     box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
 }
 
+.image{
+    padding-left: 0 !important;
+}
+
 .carousel-caption {
     left: 50% !important;
     right: 0 !important;
@@ -323,21 +327,21 @@ footer .page-generic {
     /* The image used */
 
     &.paraone{
-        background-image: url("/images/img_parallax.jpg");
+        background-image: url("/images/paralaxtop.jpg");
     }
     &.paratwo{
-        background-image: url("/images/para1.jpg");
+        background-image: url("/images/paralaxsecond.jpg");
     }
     &.parathree{
-        background-image: url("/images/para2.jpg");
-        min-height: 700px;
+        background-image: url("/images/paralaxthird.jpg");
+
     }
     &.parafour{
-         background-image: url("/images/skyebg.jpg");
+         background-image: url("/images/oceansky.jpg");
          min-height: 800px;
      }
     &.parafive{
-        background-image: url("/images/nightskye.jpg");
+        background-image: url("/images/parafish.jpg");
         min-height: 800px;
     }
     &.parasix{

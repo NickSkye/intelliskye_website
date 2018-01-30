@@ -16,7 +16,7 @@ mix.js('resources/assets/js/app.js', 'public/js')
 
 
 mix.browserSync({
-    proxy: 'rejuvenationwellness.test/',
+    proxy: 'intelliskye.test/',
     open: false
 });
 
