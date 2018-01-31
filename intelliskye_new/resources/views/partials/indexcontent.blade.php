@@ -130,27 +130,7 @@
                     <div class="row">
                         <h2>Projects we have developed.</h2>
                     </div>
-                    <div class="row" data-aos="slide-right" data-aos-delay="300" >
-                        <div class="col-sm-2" >
-                            <img src="/images/firstslide.jpg" class="projects-image">
-                        </div>
-                        <div class="col-sm-2">
-                            <img src="/images/firstslide.jpg" class="projects-image">
-                        </div>
-                        <div class="col-sm-2">
-                            <img src="/images/firstslide.jpg" class="projects-image">
-                        </div>
-                        <div class="col-sm-2">
-                            <img src="/images/firstslide.jpg" class="projects-image">
-                        </div>
-                        <div class="col-sm-2">
-                            <img src="/images/firstslide.jpg" class="projects-image">
-                        </div>
-                        <div class="col-sm-2">
-                            <img src="/images/firstslide.jpg" class="projects-image">
-                        </div>
-                    </div>
-                    <div class="row" data-aos="slide-left" data-aos-delay="300">
+                    <div class="row project-row-top" data-aos="slide-right" data-aos-delay="300">
                         <div class="col-sm-2">
                             <img src="/images/firstslide.jpg" class="projects-image">
                         </div>
@@ -170,7 +150,26 @@
                             <img src="/images/firstslide.jpg" class="projects-image">
                         </div>
                     </div>
-
+                    <div class="row project-row-bottom" data-aos="slide-left" data-aos-delay="300">
+                        <div class="col-sm-2">
+                            <img src="/images/firstslide.jpg" class="projects-image">
+                        </div>
+                        <div class="col-sm-2">
+                            <img src="/images/firstslide.jpg" class="projects-image">
+                        </div>
+                        <div class="col-sm-2">
+                            <img src="/images/firstslide.jpg" class="projects-image">
+                        </div>
+                        <div class="col-sm-2">
+                            <img src="/images/firstslide.jpg" class="projects-image">
+                        </div>
+                        <div class="col-sm-2">
+                            <img src="/images/firstslide.jpg" class="projects-image">
+                        </div>
+                        <div class="col-sm-2">
+                            <img src="/images/firstslide.jpg" class="projects-image">
+                        </div>
+                    </div>
 
 
                 </div>
@@ -191,6 +190,9 @@
                         to make your dreams become a reality. We will never stop fighting for you. Youre going to like
                         the way you look, I guaruntee it.</p>
 
+                    <p id="contactformbutton" >
+                        Contact Us&nbsp;<i class="fa fa-caret-right" aria-hidden="true"></i>
+                    </p>
                 </div>
                 {{--CONTACT FORM HERE--}}
 
@@ -198,6 +200,31 @@
         </div>
     </div>
 </div>
-<div class="parallax parafive"></div>
+<div class="parallax parafive">
+    <div id="contactform" class="container pull-out-container-contact">
+        <h2>Contact Us Today!</h2>
+        <form action="contact/submit" class="contact-form" method="post">
+            {{ csrf_field() }}
+            <div class="form-group">
+
+                <input type="text" class="form-control" id="name" name="name" placeholder="Name">
+            </div>
+
+            <div class="form-group">
+
+                <input type="email" class="form-control" id="email" name="email" placeholder="Email">
+            </div>
+
+            <div class="form-group">
+
+                <textarea class="form-control" id="message" name="messbody" placeholder="Message" rows="4"></textarea>
+            </div>
+
+            <br>
+            <button href="#" class="link-cta" role="button">Submit</button>
+            {{--<button class="btn btn-primary btn-lg">Submit</button>--}}
+        </form>
+
+    </div>
 
 </div>

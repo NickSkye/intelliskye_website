@@ -56,6 +56,21 @@ $(document).ready(function () {
         $('#empthree').removeClass('activated');
         $('#empthreebutton').removeClass('activated');
     });
+
+    $( "#contactformbutton" ).click(function() {
+        $('.pull-out-container').removeClass('activated');
+        $('.image').removeClass('activated');
+        $('#contactform').addClass('activated');
+        $('#contactformbutton').addClass('activated');
+
+    });
+
+    $( "#contactform" ).click(function() {
+        $('.pull-out-container').removeClass('activated');
+        $('.image').removeClass('activated');
+        $('#contactform').removeClass('activated');
+        $('#contactformbutton').removeClass('activated');
+    });
 });
 
 //action when scrolled

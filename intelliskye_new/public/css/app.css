@@ -739,6 +739,42 @@ header .menu__toggle span.bottom {
   width: 100%;
 }
 
+.project-row-top {
+  margin-bottom: 30px;
+}
+
+.project-row-bottom {
+  margin-bottom: 30px;
+}
+
+#contactform {
+  -webkit-transition: 1s -webkit-transform ease-in-out;
+  transition: 1s -webkit-transform ease-in-out;
+  transition: 1s transform ease-in-out;
+  transition: 1s transform ease-in-out, 1s -webkit-transform ease-in-out;
+  -webkit-transform: translateX(200%);
+          transform: translateX(200%);
+  width: 100%;
+  z-index: 1004;
+}
+
+#contactform.activated {
+  -webkit-transform: translateX(0%);
+          transform: translateX(0%);
+}
+
+.pull-out-container-contact {
+  z-index: 300;
+  background-color: black;
+  height: 600px !important;
+  position: absolute;
+}
+
+.pull-out-container-contact p,
+.pull-out-container-contact ul {
+  color: white;
+}
+
 section.faq.crystals .about__block--container:nth-child(odd) .about__block h2 {
   text-align: center;
 }
