@@ -766,7 +766,7 @@ header .menu__toggle span.bottom {
 .pull-out-container-contact {
   z-index: 300;
   background-color: black;
-  height: 600px !important;
+  height: 800px !important;
   position: absolute;
 }
 

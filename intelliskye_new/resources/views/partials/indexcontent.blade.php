@@ -190,7 +190,7 @@
                         to make your dreams become a reality. We will never stop fighting for you. Youre going to like
                         the way you look, I guaruntee it.</p>
 
-                    <p id="contactformbutton" >
+                    <p id="contactformbutton">
                         Contact Us&nbsp;<i class="fa fa-caret-right" aria-hidden="true"></i>
                     </p>
                 </div>
@@ -202,29 +202,31 @@
 </div>
 <div class="parallax parafive">
     <div id="contactform" class="container pull-out-container-contact">
-        <h2>Contact Us Today!</h2>
-        <form action="contact/submit" class="contact-form" method="post">
-            {{ csrf_field() }}
-            <div class="form-group">
+        <div class="col-sm-6 col-sm-offset-3">
+            <h2>Contact Us Today!</h2>
+            <form action="contact/submit" class="contact-form" method="post">
+                {{ csrf_field() }}
+                <div class="form-group">
 
-                <input type="text" class="form-control" id="name" name="name" placeholder="Name">
-            </div>
+                    <input type="text" class="form-control" id="name" name="name" placeholder="Name">
+                </div>
 
-            <div class="form-group">
+                <div class="form-group">
 
-                <input type="email" class="form-control" id="email" name="email" placeholder="Email">
-            </div>
+                    <input type="email" class="form-control" id="email" name="email" placeholder="Email">
+                </div>
 
-            <div class="form-group">
+                <div class="form-group">
 
-                <textarea class="form-control" id="message" name="messbody" placeholder="Message" rows="4"></textarea>
-            </div>
+                    <textarea class="form-control" id="message" name="messbody" placeholder="Message"
+                              rows="4"></textarea>
+                </div>
 
-            <br>
-            <button href="#" class="link-cta" role="button">Submit</button>
-            {{--<button class="btn btn-primary btn-lg">Submit</button>--}}
-        </form>
-
+                <br>
+                <button href="#" class="link-cta" role="button">Submit</button>
+                {{--<button class="btn btn-primary btn-lg">Submit</button>--}}
+            </form>
+        </div>
     </div>
 
 </div>

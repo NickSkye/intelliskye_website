@@ -213,7 +213,7 @@
             </div>
         </div>
     @include('partials.indexcontent')
-
+    </div>
 
 
 
