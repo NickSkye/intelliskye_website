@@ -10,14 +10,31 @@
 
 body {
     height: 100%;
-    background-color: $color-body !important;
+
     p{
         color: $color-text;
+        font-family: 'Open Sans', sans-serif;
     }
 
+    h1{
+        font-size: 55px;
+        text-transform: uppercase;
+        letter-spacing: 20px;
+        color: white;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: bolder;
+        line-height: 1.3;
+        @media (max-width: 767px){
+            font-size: 40px;
+            letter-spacing: 7px;
+            font-weight: 700;
+        }
+    }
 
     h2{
-        color: $color-accent;
+        color: white;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: bolder;
     }
 }
 body,
@@ -26,7 +43,9 @@ html {
 }
 
 .shadowdiv{
-    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+    //-webkit-box-shadow: 0px 0px 57px 5px rgba(0,0,0,0.7);
+    //-moz-box-shadow: 0px 0px 57px 5px rgba(0,0,0,0.7);
+    //box-shadow: 0px 0px 57px 5px rgba(0,0,0,0.7);
 }
 
 .image{
@@ -40,6 +59,23 @@ html {
 
 }
 
+
+.black-overlay {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    background: -moz-radial-gradient(center, ellipse cover, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.8) 100%);
+    background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, rgba(0, 0, 0, 0)), color-stop(100%, rgba(0, 0, 0, 0.8)));
+    background: -webkit-radial-gradient(center, ellipse cover, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.8) 100%);
+    background: -o-radial-gradient(center, ellipse cover, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.8) 100%);
+    background: -ms-radial-gradient(center, ellipse cover, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.8) 100%);
+    background: radial-gradient(ellipse at center, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.8) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00000000', endColorstr='#a6000000', GradientType=1);
+
+}
 .full-width {
     width: 101% !important;
 }
@@ -195,8 +231,35 @@ html {
         left: 50%;
         transform: translate(-50%, -50%);
     }
+    .centered-head {
+        position: absolute;
+        top: 50%;
+
+        transform: translate(50%, -50%);
+    }
     .top-margin {
         margin-top: 20%;
+    }
+
+    .top-margin-50{
+        margin-top: 30%;
+    }
+
+    .title-load{
+
+        transform: scale(2);
+        transition: 1.5s all ease-in-out;
+
+
+        &.activated{
+            transform: scale(1.0);
+        }
+    }
+
+    .title-border{
+        width: 50%;
+        margin-left: 25%;
+        border-bottom: 5px solid white;
     }
 
     .carousel-indicators-top {
@@ -261,7 +324,14 @@ html {
     right: 0;
     height: 100%;
 
-    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+    -webkit-box-shadow: 0px 0px 57px 5px rgba(0,0,0,0.7);
+    -moz-box-shadow: 0px 0px 57px 5px rgba(0,0,0,0.7);
+    box-shadow: 0px 0px 57px 5px rgba(0,0,0,0.7);
+}
+
+box-shadow:before{
+    opacity: 0.5;
+    background-color: white;
 }
 
 footer {
@@ -326,6 +396,10 @@ footer .page-generic {
 .parallax {
     /* The image used */
 
+    &.parazero{
+        background-image: url("/images/snow_mount.jpg");
+        min-height: 900px;
+    }
     &.paraone{
         background-image: url("/images/paralaxtop.jpg");
     }
@@ -399,4 +473,10 @@ footer .page-generic {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+
+.black-on-white{
+    h2, p {
+        color: black;
+    }
 }
