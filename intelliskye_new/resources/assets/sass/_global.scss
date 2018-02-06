@@ -339,13 +339,18 @@ footer {
     // position: absolute;
     // bottom: 0;
     // width: 100%;
-    background-color: black;
+    background: linear-gradient(#fcd046, #f0dd9e,#e9cd72, #e6c55c, #e3bd46);
+    //#fcd046 #e6c55c
     img {
         margin: 0 auto;
     }
 }
 footer .page-generic {
     margin-bottom: 0;
+}
+
+footer:hover{
+    background:linear-gradient(141deg, #0fb8ad 0%, #1fc8db 51%, #2cb5e8 75%);
 }
 
 @media (max-width: 900px) {

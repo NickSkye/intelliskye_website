@@ -280,7 +280,8 @@ box-shadow:before {
 }
 
 footer {
-  background-color: black;
+  background: -webkit-gradient(linear, left top, left bottom, from(#fcd046), color-stop(#f0dd9e), color-stop(#e9cd72), color-stop(#e6c55c), to(#e3bd46));
+  background: linear-gradient(#fcd046, #f0dd9e, #e9cd72, #e6c55c, #e3bd46);
 }
 
 footer img {
@@ -289,6 +290,10 @@ footer img {
 
 footer .page-generic {
   margin-bottom: 0;
+}
+
+footer:hover {
+  background: linear-gradient(141deg, #0fb8ad 0%, #1fc8db 51%, #2cb5e8 75%);
 }
 
 @media (max-width: 900px) {
