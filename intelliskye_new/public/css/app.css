@@ -760,10 +760,6 @@ header .menu__toggle span.bottom {
           transform: translateX(0%);
 }
 
-#emponebutton.activated {
-  border: 5px solid #813772;
-}
-
 #emptwo {
   -webkit-transition: 1s -webkit-transform ease-in-out;
   transition: 1s -webkit-transform ease-in-out;
@@ -780,10 +776,6 @@ header .menu__toggle span.bottom {
           transform: translateX(0%);
 }
 
-#emptwobutton.activated {
-  border: 5px solid #813772;
-}
-
 #empthree {
   -webkit-transition: 1s -webkit-transform ease-in-out;
   transition: 1s -webkit-transform ease-in-out;
@@ -798,10 +790,6 @@ header .menu__toggle span.bottom {
 #empthree.activated {
   -webkit-transform: translateX(0%);
           transform: translateX(0%);
-}
-
-#empthreebutton.activated {
-  border: 5px solid #813772;
 }
 
 .employee-photo {

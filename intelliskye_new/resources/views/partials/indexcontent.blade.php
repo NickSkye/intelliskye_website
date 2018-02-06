@@ -32,9 +32,7 @@
                         we provide our clients with the most complete apps to cover the largest array of users. We
                         believe communication is the key to any good relationship so we work side by side with you every
                         step of the way to make your dream become a reality.</p>
-                    <p id="whatwedobutton" class="text-center button">
-                        Learn more about our services&nbsp;<i class="fa fa-caret-right" aria-hidden="true"></i>
-                    </p>
+
                 </div>
                 <div class="content__block col-sm-4" data-aos="fade-up" data-aos-delay="1000">
 
@@ -43,7 +41,9 @@
                         we provide our clients with the most complete apps to cover the largest array of users. We
                         believe communication is the key to any good relationship so we work side by side with you every
                         step of the way to make your dream become a reality.</p>
-
+                    <p id="whatwedobuttonlarge" class="text-center button hidden-xs">
+                        Learn more about our services&nbsp;<i class="fa fa-caret-right" aria-hidden="true"></i>
+                    </p>
                 </div>
                 <div class="content__block col-sm-4" data-aos="fade-up" data-aos-delay="700">
 
@@ -52,7 +52,9 @@
                         we provide our clients with the most complete apps to cover the largest array of users. We
                         believe communication is the key to any good relationship so we work side by side with you every
                         step of the way to make your dream become a reality.</p>
-
+                    <p id="whatwedobuttonsmall" class="text-center button visible-xs">
+                        Learn more about our services&nbsp;<i class="fa fa-caret-right" aria-hidden="true"></i>
+                    </p>
                 </div>
 
 
@@ -61,7 +63,24 @@
 
 
             </div>
+            <div id="whatwedo" class="container pull-out-container">
+                <div class="row">
+                    <i class="fa fa-times fa-2x" style="position: absolute; top: 3%; right: 2%;" aria-hidden="true"></i>
+                </div>
+                <div class="row">
 
+                    <div class="col-sm-12">
+                        <p class="greentext"><strong>Services Include:</strong></p>
+                        <ul>
+                            <li>Mobile App design and development</li>
+                            <li>Web design and development</li>
+                            <li>SEO/SEM/AdWords</li>
+                            <li>Consulting</li>
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
 
         </div>
     </div>
@@ -78,24 +97,7 @@
         </div>
     </div>
     {{--slide out--}}
-    <div id="whatwedo" class="container pull-out-container">
-        <div class="row">
-            <i class="fa fa-times fa-2x" style="position: absolute; top: 3%; right: 2%;" aria-hidden="true"></i>
-        </div>
-        <div class="row">
 
-            <div class="col-sm-12">
-                <p class="greentext"><strong>Services Include:</strong></p>
-                <ul>
-                    <li>Mobile App design and development</li>
-                    <li>Web design and development</li>
-                    <li>SEO/SEM/AdWords</li>
-                    <li>Consulting</li>
-
-                </ul>
-            </div>
-        </div>
-    </div>
     {{--end testing slide out--}}
 </div>
 <div class="row crystals">
@@ -115,7 +117,52 @@
                     <img src="/images/steveo.jpg" class="employee-photo" alt="" data-aos-delay="200"
                          data-aos-easing="ease-in-sine">
                 </div>
+{{--TEST--}}
+                <div id="empone" class="container pull-out-container">
+                    <div class="row">
+                        <i class="fa fa-times fa-2x" style="position: absolute; top: 3%; right: 2%;" aria-hidden="true"></i>
+                    </div>
+                    <div class="row">
 
+                        <div class="col-sm-4">
+                            <p>NAME OF EMPLOYEE</p>
+                        </div>
+                        <div class="col-sm-8">
+                            <img src="/images/dori.jpg" class="employee-photo-sm">
+                        </div>
+                    </div>
+                </div>
+                {{--EMPLOYEE TWO--}}
+                <div id="emptwo" class="container pull-out-container">
+                    <div class="row">
+                        <i class="fa fa-times fa-2x" style="position: absolute; top: 3%; right: 2%;" aria-hidden="true"></i>
+                    </div>
+                    <div class="row">
+
+                        <div class="col-sm-4">
+                            <p>NAME OF EMPLOYEE</p>
+                        </div>
+                        <div class="col-sm-8">
+                            <img src="/images/nick.jpg" class="employee-photo-sm">
+                        </div>
+                    </div>
+                </div>
+                {{--EMPLOYEE THREE--}}
+                <div id="empthree" class="container pull-out-container">
+                    <div class="row">
+                        <i class="fa fa-times fa-2x" style="position: absolute; top: 3%; right: 2%;" aria-hidden="true"></i>
+                    </div>
+                    <div class="row">
+
+                        <div class="col-sm-4">
+                            <p>NAME OF EMPLOYEE</p>
+                        </div>
+                        <div class="col-sm-8">
+                            <img src="/images/steveo.jpg" class="employee-photo-sm">
+                        </div>
+                    </div>
+                </div>
+                {{--end test--}}
             </div>
         </div>
     </div>
@@ -129,56 +176,13 @@
 
         </div>
     </div>
-    <div id="empone" class="container pull-out-container">
-        <div class="row">
-            <i class="fa fa-times fa-2x" style="position: absolute; top: 3%; right: 2%;" aria-hidden="true"></i>
-        </div>
-        <div class="row">
 
-            <div class="col-sm-4">
-                <p>NAME OF EMPLOYEE</p>
-            </div>
-            <div class="col-sm-8">
-                <img src="/images/dori.jpg" class="employee-photo-sm">
-            </div>
-        </div>
-    </div>
-    {{--EMPLOYEE TWO--}}
-    <div id="emptwo" class="container pull-out-container">
-        <div class="row">
-            <i class="fa fa-times fa-2x" style="position: absolute; top: 3%; right: 2%;" aria-hidden="true"></i>
-        </div>
-        <div class="row">
-
-            <div class="col-sm-4">
-                <p>NAME OF EMPLOYEE</p>
-            </div>
-            <div class="col-sm-8">
-                <img src="/images/nick.jpg" class="employee-photo-sm">
-            </div>
-        </div>
-    </div>
-    {{--EMPLOYEE THREE--}}
-    <div id="empthree" class="container pull-out-container">
-        <div class="row">
-            <i class="fa fa-times fa-2x" style="position: absolute; top: 3%; right: 2%;" aria-hidden="true"></i>
-        </div>
-        <div class="row">
-
-            <div class="col-sm-4">
-                <p>NAME OF EMPLOYEE</p>
-            </div>
-            <div class="col-sm-8">
-                <img src="/images/steveo.jpg" class="employee-photo-sm">
-            </div>
-        </div>
-    </div>
 </div>
-<div class="row crystals black-on-white">
-    <div class="col-sm-12">
+<div class="project-section row crystals black-on-white hidden">
+    <div class="col-xs-12">
         <div class="about__block--container shadowdiv" id="projects">
             <div class="about__block container-fluid">
-                <div class="content__block col-sm-12" data-aos="fade-up" data-aos-delay="300">
+                <div class="content__block col-xs-12" data-aos="fade-up" data-aos-delay="300">
                     <div class="row">
                         <div id="myCarousel" class="carousel slide" data-ride="carousel">
                             <!-- Indicators -->
@@ -193,15 +197,15 @@
                                 <div class="item active">
                                     <div class="row">
                                         <div class="row">
-                                            <div class="col-sm-4">
+                                            <div class="col-xs-4">
                                                 <h2>SweatBid</h2>
                                                 <img src="/images/sweatbid.png" alt="">
                                             </div>
-                                            <div class="col-sm-4">
+                                            <div class="col-xs-4">
                                                 <h2>Celebrities Squared</h2>
                                                 <img src="/images/cs-icon-1024.png" alt="">
                                             </div>
-                                            <div class="col-sm-4">
+                                            <div class="col-xs-4">
                                                 <h2>Flippy's Flight</h2>
                                                 <img src="/images/flippys1024.png" alt="">
                                             </div>
@@ -212,15 +216,15 @@
                                 <div class="item">
                                     <div class="row">
                                         <div class="row">
-                                            <div class="col-sm-4">
+                                            <div class="col-xs-4">
                                                 <h2>SweatBid</h2>
                                                 <img src="/images/sweatbid.png" alt="">
                                             </div>
-                                            <div class="col-sm-4">
+                                            <div class="col-xs-4">
                                                 <h2>Celebrities Squared</h2>
                                                 <img src="/images/cs-icon-1024.png" alt="">
                                             </div>
-                                            <div class="col-sm-4">
+                                            <div class="col-xs-4">
                                                 <h2>Flippy's Flight</h2>
                                                 <img src="/images/flippys1024.png" alt="">
                                             </div>

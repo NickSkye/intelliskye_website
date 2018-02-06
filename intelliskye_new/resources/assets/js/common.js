@@ -1,7 +1,11 @@
 $(document).ready(function () {
     $('.animated').addClass('activated');
 
-    $( "#whatwedobutton" ).click(function() {
+    $( "#whatwedobuttonlarge" ).click(function() {
+        $('#whatwedo').addClass('activated');
+
+    });
+    $( "#whatwedobuttonsmall" ).click(function() {
         $('#whatwedo').addClass('activated');
 
     });
