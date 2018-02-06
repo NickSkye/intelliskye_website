@@ -31808,13 +31808,15 @@ $(document).ready(function () {
 
 //action when scrolled
 $(window).bind('scroll', function () {
-    if ($(window).scrollTop() > 50) {
+    if ($(window).scrollTop() > 30) {
         $('.keep-menu').addClass('fixed');
         $('.keep-menu-shadow').addClass('box-shadow');
+        $('.keep-menu-shadow').addClass('colored-back');
     } else {
 
         $('.keep-menu').removeClass('fixed');
         $('.keep-menu-shadow').removeClass('box-shadow');
+        $('.keep-menu-shadow').removeClass('colored-back');
     }
 });
 

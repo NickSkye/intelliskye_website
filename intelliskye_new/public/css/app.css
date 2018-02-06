@@ -734,6 +734,11 @@ header .menu__toggle span.bottom {
   color: white;
 }
 
+.colored-back {
+  background: -webkit-gradient(linear, left top, left bottom, from(#316980), to(#387d8c)) !important;
+  background: linear-gradient(#316980, #387d8c) !important;
+}
+
 #empone {
   -webkit-transition: 1s -webkit-transform ease-in-out;
   transition: 1s -webkit-transform ease-in-out;
