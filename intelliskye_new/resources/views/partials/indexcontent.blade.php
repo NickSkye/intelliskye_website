@@ -118,47 +118,69 @@
                          data-aos-easing="ease-in-sine">
                 </div>
 {{--TEST--}}
-                <div id="empone" class="container pull-out-container">
+                <div id="empone" class="container pull-out-container black-on-white">
                     <div class="row">
                         <i class="fa fa-times fa-2x" style="position: absolute; top: 3%; right: 2%;" aria-hidden="true"></i>
                     </div>
                     <div class="row">
 
                         <div class="col-sm-4">
-                            <p>NAME OF EMPLOYEE</p>
+                            <h2>Dori Mouawad</h2>
+                            <p>Dori Mouawad is a UCI alum with many years of experience in developing mobile applications under his belt. An expert in both native Android, and iOS development, he has worked on an array of different projects during his time with IntelliSkye. Some of the different types of projects he has completed range from a mobile side scroller game, to an application to help educate those most at risk of the dangers of human traffiking and how to avoid becoming a victim. He has honed his skills in the design and development of mobile applications is constantly at the forefront of creating new and exciting applications.</p>
                         </div>
-                        <div class="col-sm-8">
+                        <div class="col-sm-4">
                             <img src="/images/dori.jpg" class="employee-photo-sm">
+                        </div>
+                        <div class="col-sm-4">
+                            <h2>Skills</h2>
+                            {{--line graph with skills--}}
+                            <h5>SWIFT</h5>
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
+                                    <span class="sr-only">60% Complete</span>
+                                </div>
+                            </div>
+
+                            {{--end line graph--}}
                         </div>
                     </div>
                 </div>
                 {{--EMPLOYEE TWO--}}
-                <div id="emptwo" class="container pull-out-container">
+                <div id="emptwo" class="container pull-out-container black-on-white">
                     <div class="row">
                         <i class="fa fa-times fa-2x" style="position: absolute; top: 3%; right: 2%;" aria-hidden="true"></i>
                     </div>
                     <div class="row">
 
                         <div class="col-sm-4">
-                            <p>NAME OF EMPLOYEE</p>
+                            <h2>Dori Mouawad</h2>
+                            <p>Dori Mouawad is a UCI alum with many years of experience in developing mobile applications under his belt. An expert in both native Android, and iOS development, he has worked on an array of different projects during his time with IntelliSkye. Some of the different types of projects he has completed range from a mobile side scroller game, to an application to help educate those most at risk of the dangers of human traffiking and how to avoid becoming a victim. He has honed his skills in the design and development of mobile applications is constantly at the forefront of creating new and exciting applications.</p>
                         </div>
-                        <div class="col-sm-8">
+                        <div class="col-sm-4">
                             <img src="/images/nick.jpg" class="employee-photo-sm">
+                        </div>
+                        <div class="col-sm-4">
+                            <h2>Skills</h2>
+                            {{--line graph with skills--}}
                         </div>
                     </div>
                 </div>
                 {{--EMPLOYEE THREE--}}
-                <div id="empthree" class="container pull-out-container">
+                <div id="empthree" class="container pull-out-container black-on-white">
                     <div class="row">
                         <i class="fa fa-times fa-2x" style="position: absolute; top: 3%; right: 2%;" aria-hidden="true"></i>
                     </div>
                     <div class="row">
-
                         <div class="col-sm-4">
-                            <p>NAME OF EMPLOYEE</p>
+                            <h2>Dori Mouawad</h2>
+                            <p>Dori Mouawad is a UCI alum with many years of experience in developing mobile applications under his belt. An expert in both native Android, and iOS development, he has worked on an array of different projects during his time with IntelliSkye. Some of the different types of projects he has completed range from a mobile side scroller game, to an application to help educate those most at risk of the dangers of human traffiking and how to avoid becoming a victim. He has honed his skills in the design and development of mobile applications is constantly at the forefront of creating new and exciting applications.</p>
                         </div>
-                        <div class="col-sm-8">
+                        <div class="col-sm-4">
                             <img src="/images/steveo.jpg" class="employee-photo-sm">
+                        </div>
+                        <div class="col-sm-4">
+                            <h2>Skills</h2>
+                            {{--line graph with skills--}}
                         </div>
                     </div>
                 </div>

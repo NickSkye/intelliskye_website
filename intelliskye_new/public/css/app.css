@@ -443,6 +443,10 @@ footer:hover {
           transform: translate(-50%, -50%);
 }
 
+.black-on-white {
+  background-color: white;
+}
+
 .black-on-white h2,
 .black-on-white p {
   color: black;
@@ -742,6 +746,17 @@ header .menu__toggle span.bottom {
 .colored-back {
   background: -webkit-gradient(linear, left top, left bottom, from(#316980), to(#387d8c)) !important;
   background: linear-gradient(#316980, #387d8c) !important;
+}
+
+.progress {
+  height: 16px;
+  margin-bottom: 20px;
+  overflow: hidden;
+  background-color: white;
+  border-radius: 0px;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  border: 3px solid black;
 }
 
 #empone {
