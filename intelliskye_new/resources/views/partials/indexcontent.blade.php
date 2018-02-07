@@ -134,10 +134,23 @@
                         <div class="col-sm-4">
                             <h2>Skills</h2>
                             {{--line graph with skills--}}
-                            <h5>SWIFT</h5>
+                            <h5>iOS / Android</h5>
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 90%;">
+                                    <span class="sr-only">90% Complete</span>
+                                </div>
+                            </div>
+                            <h5>WEB DEVELOPMENT</h5>
                             <div class="progress">
                                 <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
                                     <span class="sr-only">60% Complete</span>
+                                </div>
+                            </div>
+
+                            <h5>DATABASES</h5>
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%;">
+                                    <span class="sr-only">80% Complete</span>
                                 </div>
                             </div>
 
@@ -162,6 +175,27 @@
                         <div class="col-sm-4">
                             <h2>Skills</h2>
                             {{--line graph with skills--}}
+                            <h5>iOS / Android</h5>
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%;">
+                                    <span class="sr-only">80% Complete</span>
+                                </div>
+                            </div>
+                            <h5>WEB DEVELOPMENT</h5>
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100" style="width: 95%;">
+                                    <span class="sr-only">95% Complete</span>
+                                </div>
+                            </div>
+
+                            <h5>DATABASES</h5>
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
+                                    <span class="sr-only">60% Complete</span>
+                                </div>
+                            </div>
+
+                            {{--end line graph--}}
                         </div>
                     </div>
                 </div>
@@ -180,6 +214,12 @@
                         </div>
                         <div class="col-sm-4">
                             <h2>Skills</h2>
+                            <h5>GRAPHICS</h5>
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 100%;">
+                                    <span class="sr-only">100% Complete</span>
+                                </div>
+                            </div>
                             {{--line graph with skills--}}
                         </div>
                     </div>

@@ -444,12 +444,12 @@ footer:hover {
 }
 
 .black-on-white {
-  background-color: white;
+  background-color: white !important;
 }
 
 .black-on-white h2,
 .black-on-white p {
-  color: black;
+  color: black !important;
 }
 
 header {
