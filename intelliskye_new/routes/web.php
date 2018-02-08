@@ -20,3 +20,8 @@ Route::get('/contact', 'PagesController@showContact');
 Route::Post('/sendemail', 'PagesController@contactform');
 
 
+
+
+Route::group(['prefix' => 'admin'], function () {
+    Voyager::routes();
+});
