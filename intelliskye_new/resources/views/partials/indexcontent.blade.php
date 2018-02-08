@@ -240,77 +240,133 @@
     </div>
 
 </div>
-<div class="project-section row crystals black-on-white hidden">
+<div class="project-section row crystals black-on-white">
     <div class="col-xs-12">
-        <div class="about__block--container shadowdiv" id="projects">
-            <div class="about__block container-fluid">
-                <div class="content__block col-xs-12" data-aos="fade-up" data-aos-delay="300">
-                    <div class="row">
-                        <div id="myCarousel" class="carousel slide" data-ride="carousel">
-                            <!-- Indicators -->
-                            <ol class="carousel-indicators">
-                                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-                                <li data-target="#myCarousel" data-slide-to="1"></li>
-                                <li data-target="#myCarousel" data-slide-to="2"></li>
-                            </ol>
 
-                            <!-- Wrapper for slides -->
-                            <div class="carousel-inner">
-                                <div class="item active">
-                                    <div class="row">
-                                        <div class="row">
-                                            <div class="col-xs-4">
-                                                <h2>SweatBid</h2>
-                                                <img src="/images/sweatbid.png" alt="">
-                                            </div>
-                                            <div class="col-xs-4">
-                                                <h2>Celebrities Squared</h2>
-                                                <img src="/images/cs-icon-1024.png" alt="">
-                                            </div>
-                                            <div class="col-xs-4">
-                                                <h2>Flippy's Flight</h2>
-                                                <img src="/images/flippys1024.png" alt="">
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
+            <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                <!-- Indicators -->
+                <ol class="carousel-indicators">
+                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#myCarousel" data-slide-to="1"></li>
+                    <li data-target="#myCarousel" data-slide-to="2"></li>
+                </ol>
 
-                                <div class="item">
-                                    <div class="row">
-                                        <div class="row">
-                                            <div class="col-xs-4">
-                                                <h2>SweatBid</h2>
-                                                <img src="/images/sweatbid.png" alt="">
-                                            </div>
-                                            <div class="col-xs-4">
-                                                <h2>Celebrities Squared</h2>
-                                                <img src="/images/cs-icon-1024.png" alt="">
-                                            </div>
-                                            <div class="col-xs-4">
-                                                <h2>Flippy's Flight</h2>
-                                                <img src="/images/flippys1024.png" alt="">
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                
+                <!-- Wrapper for slides -->
+                <div class="carousel-inner">
+                    <div class="item active">
+                        <div class="row">
+                            <div class="col-xs-2">
+                                <img src="/images/icon/Androidicon.png" class="skillsicon" alt="">
                             </div>
-
-                            <!-- Left and right controls -->
-                            <a class="left carousel-control" href="#myCarousel" data-slide="prev">
-                                <span class="glyphicon glyphicon-chevron-left"></span>
-                                <span class="sr-only">Previous</span>
-                            </a>
-                            <a class="right carousel-control" href="#myCarousel" data-slide="next">
-                                <span class="glyphicon glyphicon-chevron-right"></span>
-                                <span class="sr-only">Next</span>
-                            </a>
+                            <div class="col-xs-2">
+                                <img src="/images/icon/appleicon.png" alt="">
+                            </div>
+                            <div class="col-xs-2">
+                                <img src="/images/icon/awsicon.png" alt="">
+                            </div>
+                            <div class="col-xs-2">
+                                <img src="/images/icon/Androidicon.png" alt="">
+                            </div>
+                            <div class="col-xs-2">
+                                <img src="/images/icon/Androidicon.png" alt="">
+                            </div>
+                            <div class="col-xs-2">
+                                <img src="/images/icon/Androidicon.png" alt="">
+                            </div>
                         </div>
                     </div>
+
+                    <div class="item">
+                        <img src="chicago.jpg" alt="Chicago" style="width:100%;">
+                    </div>
+
+                    <div class="item">
+                        <img src="ny.jpg" alt="New york" style="width:100%;">
+                    </div>
                 </div>
+
+                <!-- Left and right controls -->
+                <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right"></span>
+                    <span class="sr-only">Next</span>
+                </a>
             </div>
-        </div>
+
+
+
+        {{--<div class="about__block--container shadowdiv hidden" id="projects">--}}
+            {{--<div class="about__block container-fluid">--}}
+                {{--<div class="content__block col-xs-12" data-aos="fade-up" data-aos-delay="300">--}}
+                    {{--<div class="row">--}}
+                        {{--<div id="myCarousel" class="carousel slide" data-ride="carousel">--}}
+                            {{--<!-- Indicators -->--}}
+                            {{--<ol class="carousel-indicators">--}}
+                                {{--<li data-target="#myCarousel" data-slide-to="0" class="active"></li>--}}
+                                {{--<li data-target="#myCarousel" data-slide-to="1"></li>--}}
+                                {{--<li data-target="#myCarousel" data-slide-to="2"></li>--}}
+                            {{--</ol>--}}
+
+                            {{--<!-- Wrapper for slides -->--}}
+                            {{--<div class="carousel-inner">--}}
+                                {{--<div class="item active">--}}
+                                    {{--<div class="row">--}}
+                                        {{--<div class="row">--}}
+                                            {{--<div class="col-xs-4">--}}
+                                                {{--<h2>SweatBid</h2>--}}
+                                                {{--<img src="/images/sweatbid.png" alt="">--}}
+                                            {{--</div>--}}
+                                            {{--<div class="col-xs-4">--}}
+                                                {{--<h2>Celebrities Squared</h2>--}}
+                                                {{--<img src="/images/cs-icon-1024.png" alt="">--}}
+                                            {{--</div>--}}
+                                            {{--<div class="col-xs-4">--}}
+                                                {{--<h2>Flippy's Flight</h2>--}}
+                                                {{--<img src="/images/flippys1024.png" alt="">--}}
+                                            {{--</div>--}}
+                                        {{--</div>--}}
+                                    {{--</div>--}}
+                                {{--</div>--}}
+
+                                {{--<div class="item">--}}
+                                    {{--<div class="row">--}}
+                                        {{--<div class="row">--}}
+                                            {{--<div class="col-xs-4">--}}
+                                                {{--<h2>SweatBid</h2>--}}
+                                                {{--<img src="/images/sweatbid.png" alt="">--}}
+                                            {{--</div>--}}
+                                            {{--<div class="col-xs-4">--}}
+                                                {{--<h2>Celebrities Squared</h2>--}}
+                                                {{--<img src="/images/cs-icon-1024.png" alt="">--}}
+                                            {{--</div>--}}
+                                            {{--<div class="col-xs-4">--}}
+                                                {{--<h2>Flippy's Flight</h2>--}}
+                                                {{--<img src="/images/flippys1024.png" alt="">--}}
+                                            {{--</div>--}}
+                                        {{--</div>--}}
+                                    {{--</div>--}}
+                                {{--</div>--}}
+
+                                {{----}}
+                            {{--</div>--}}
+
+                            {{--<!-- Left and right controls -->--}}
+                            {{--<a class="left carousel-control" href="#myCarousel" data-slide="prev">--}}
+                                {{--<span class="glyphicon glyphicon-chevron-left"></span>--}}
+                                {{--<span class="sr-only">Previous</span>--}}
+                            {{--</a>--}}
+                            {{--<a class="right carousel-control" href="#myCarousel" data-slide="next">--}}
+                                {{--<span class="glyphicon glyphicon-chevron-right"></span>--}}
+                                {{--<span class="sr-only">Next</span>--}}
+                            {{--</a>--}}
+                        {{--</div>--}}
+                    {{--</div>--}}
+                {{--</div>--}}
+            {{--</div>--}}
+        {{--</div>--}}
     </div>
 </div>
         <div class="parallax parafour">
