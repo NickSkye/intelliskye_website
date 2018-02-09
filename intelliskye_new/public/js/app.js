@@ -31829,8 +31829,8 @@ $(function () {
     var param = document.location.pathname;
     if (window.location.href.indexOf("#") > -1) {}
     $('html, body').animate({
-        scrollTop: $(param.substr(1)).offset().top - 200
-    }, 2500);
+        scrollTop: $(param.substr(1)).offset().top - 490
+    }, 1000);
     return false;
 });
 

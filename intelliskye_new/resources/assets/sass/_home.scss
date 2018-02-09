@@ -28,7 +28,20 @@
     z-index: 300;
     background-color: black;
 
-    height: 300px !important;
+    height: 400px !important;
+    position: absolute;
+
+    p, ul{
+        color: white;
+
+    }
+}
+
+.pull-out-container-inner{
+    z-index: 300;
+    background-color: black;
+
+    min-height: 400px !important;
     position: absolute;
 
     p, ul{
