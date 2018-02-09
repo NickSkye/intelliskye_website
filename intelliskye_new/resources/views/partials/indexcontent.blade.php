@@ -65,7 +65,7 @@
             </div>
             <div id="whatwedo" class="container pull-out-container">
                 <div class="row">
-                    <i class="fa fa-times fa-2x" style="position: absolute; top: 3%; right: 2%;" aria-hidden="true"></i>
+                    <i class="fa fa-times fa-2x" style="position: absolute; top: 5%; right: 5%;" aria-hidden="true"></i>
                 </div>
                 <div class="row">
 
@@ -120,7 +120,7 @@
 {{--TEST--}}
                 <div id="empone" class="container pull-out-container black-on-white">
                     <div class="row">
-                        <i class="fa fa-times fa-2x" style="position: absolute; top: 3%; right: 2%;" aria-hidden="true"></i>
+                        <i class="fa fa-times fa-2x" style="position: absolute; top: 5%; right: 5%;" aria-hidden="true"></i>
                     </div>
                     <div class="row">
 
@@ -161,7 +161,7 @@
                 {{--EMPLOYEE TWO--}}
                 <div id="emptwo" class="container pull-out-container black-on-white">
                     <div class="row">
-                        <i class="fa fa-times fa-2x" style="position: absolute; top: 3%; right: 2%;" aria-hidden="true"></i>
+                        <i class="fa fa-times fa-2x" style="position: absolute; top: 5%; right: 5%;" aria-hidden="true"></i>
                     </div>
                     <div class="row">
 
@@ -202,7 +202,7 @@
                 {{--EMPLOYEE THREE--}}
                 <div id="empthree" class="container pull-out-container black-on-white">
                     <div class="row">
-                        <i class="fa fa-times fa-2x" style="position: absolute; top: 3%; right: 2%;" aria-hidden="true"></i>
+                        <i class="fa fa-times fa-2x" style="position: absolute; top: 5%; right: 5%;" aria-hidden="true"></i>
                     </div>
                     <div class="row">
                         <div class="col-sm-4">
