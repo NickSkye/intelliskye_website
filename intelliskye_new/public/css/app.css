@@ -1036,7 +1036,7 @@ header .menu__toggle span.bottom {
   height: 100%;
   opacity: 1;
   visibility: visible;
-  z-index: 100;
+  z-index: 9999;
 }
 
 .mobile__menu .close {
