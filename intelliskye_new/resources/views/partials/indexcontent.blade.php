@@ -265,7 +265,7 @@
     <div class="row text-center " style="position: absolute;">
         <div class="col-xs-12 top-margin-50" data-aos="fade-up" data-aos-duration="1500">
             <h2 class="title-load animated">
-                OUR<br>PROJECTS
+                OUR<br>SKILLS
             </h2>
 
         </div>
@@ -291,19 +291,19 @@
                             <img src="/images/icons/Androidicon.png" class="skillsicon" alt="">
                         </div>
                         <div class="col-xs-2">
-                            <img src="/images/icon/appleicon.png" alt="">
+                            <img src="/images/icons/appleicon.png" alt="">
                         </div>
                         <div class="col-xs-2">
-                            <img src="/images/icon/awsicon.png" alt="">
+                            <img src="/images/icons/awsicon.png" alt="">
                         </div>
                         <div class="col-xs-2">
-                            <img src="/images/icon/Androidicon.png" alt="">
+                            <img src="/images/icons/Androidicon.png" alt="">
                         </div>
                         <div class="col-xs-2">
-                            <img src="/images/icon/Androidicon.png" alt="">
+                            <img src="/images/icons/Androidicon.png" alt="">
                         </div>
                         <div class="col-xs-2">
-                            <img src="/images/icon/Androidicon.png" alt="">
+                            <img src="/images/icons/Androidicon.png" alt="">
                         </div>
                     </div>
                 </div>
