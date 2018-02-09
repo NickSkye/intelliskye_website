@@ -486,4 +486,15 @@ footer:hover{
     h2, h5, p {
         color: black !important;
     }
+
+    p{
+        font-size: 1.1vw;
+        @media (max-width: 767px){
+            font-size: 12pt;
+        }
+    }
+}
+
+.no-padding-right{
+    padding-right: 0 !important;
 }

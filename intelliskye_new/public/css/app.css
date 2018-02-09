@@ -448,8 +448,23 @@ footer:hover {
 }
 
 .black-on-white h2,
+.black-on-white h5,
 .black-on-white p {
   color: black !important;
+}
+
+.black-on-white p {
+  font-size: 1.1vw;
+}
+
+@media (max-width: 767px) {
+  .black-on-white p {
+    font-size: 12pt;
+  }
+}
+
+.no-padding-right {
+  padding-right: 0 !important;
 }
 
 header {
@@ -748,6 +763,20 @@ header .menu__toggle span.bottom {
   background: linear-gradient(#316980, #387d8c) !important;
 }
 
+.initial-cover {
+  position: absolute !important;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #ffffff;
+  -webkit-transition: 1s width ease-in-out;
+  transition: 1s width ease-in-out;
+}
+
+.initial-cover.activated {
+  width: 0;
+}
+
 .progress {
   height: 16px;
   margin-bottom: 20px;
@@ -931,13 +960,19 @@ header .menu__toggle span.bottom {
   cursor: pointer;
   -webkit-transition: 0.5s all ease-in-out;
   transition: 0.5s all ease-in-out;
+  text-decoration: none;
 }
 
 .button:hover {
   border-top: 3px solid black;
   border-bottom: 3px solid black;
-  color: white;
+  color: white !important;
   background-color: black;
+}
+
+.skillsicon {
+  width: 100%;
+  height: auto;
 }
 
 #contactform {
