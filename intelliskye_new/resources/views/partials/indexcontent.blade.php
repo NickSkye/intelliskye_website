@@ -288,7 +288,7 @@
                 <div class="item active">
                     <div class="row">
                         <div class="col-xs-2">
-                            <img src="/images/icon/Androidicon.png" class="skillsicon" alt="">
+                            <img src="/images/icons/Androidicon.png" class="skillsicon" alt="">
                         </div>
                         <div class="col-xs-2">
                             <img src="/images/icon/appleicon.png" alt="">
