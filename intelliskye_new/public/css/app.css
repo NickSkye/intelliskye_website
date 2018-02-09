@@ -453,6 +453,20 @@ footer:hover {
   color: black !important;
 }
 
+.black-on-white p {
+  font-size: 1.1vw;
+}
+
+@media (max-width: 767px) {
+  .black-on-white p {
+    font-size: 12pt;
+  }
+}
+
+.no-padding-right {
+  padding-right: 0 !important;
+}
+
 header {
   height: 80px;
   width: 100%;
@@ -946,6 +960,7 @@ header .menu__toggle span.bottom {
   cursor: pointer;
   -webkit-transition: 0.5s all ease-in-out;
   transition: 0.5s all ease-in-out;
+  text-decoration: none;
 }
 
 .button:hover {
