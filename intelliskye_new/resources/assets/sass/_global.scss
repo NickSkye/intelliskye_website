@@ -482,7 +482,8 @@ footer:hover{
 }
 
 .black-on-white{
-    h2, p {
-        color: black;
+    background-color: white !important;
+    h2, h5, p {
+        color: black !important;
     }
 }

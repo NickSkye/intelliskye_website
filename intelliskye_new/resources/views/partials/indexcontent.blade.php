@@ -118,47 +118,109 @@
                          data-aos-easing="ease-in-sine">
                 </div>
 {{--TEST--}}
-                <div id="empone" class="container pull-out-container">
+                <div id="empone" class="container pull-out-container black-on-white">
                     <div class="row">
                         <i class="fa fa-times fa-2x" style="position: absolute; top: 3%; right: 2%;" aria-hidden="true"></i>
                     </div>
                     <div class="row">
 
                         <div class="col-sm-4">
-                            <p>NAME OF EMPLOYEE</p>
+                            <h2>Dori Mouawad</h2>
+                            <p>Dori Mouawad is a UCI alum with many years of experience in developing mobile applications under his belt. An expert in both native Android, and iOS development, he has worked on an array of different projects during his time with IntelliSkye. Some of the different types of projects he has completed range from a mobile side scroller game, to an application to help educate those most at risk of the dangers of human traffiking and how to avoid becoming a victim. He has honed his skills in the design and development of mobile applications is constantly at the forefront of creating new and exciting applications.</p>
                         </div>
-                        <div class="col-sm-8">
+                        <div class="col-sm-4">
                             <img src="/images/dori.jpg" class="employee-photo-sm">
+                        </div>
+                        <div class="col-sm-4">
+                            <h2>Skills</h2>
+                            {{--line graph with skills--}}
+                            <h5>iOS / Android</h5>
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 90%;">
+                                    <span class="sr-only">90% Complete</span>
+                                </div>
+                            </div>
+                            <h5>WEB DEVELOPMENT</h5>
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
+                                    <span class="sr-only">60% Complete</span>
+                                </div>
+                            </div>
+
+                            <h5>DATABASES</h5>
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%;">
+                                    <span class="sr-only">80% Complete</span>
+                                </div>
+                            </div>
+
+                            {{--end line graph--}}
                         </div>
                     </div>
                 </div>
                 {{--EMPLOYEE TWO--}}
-                <div id="emptwo" class="container pull-out-container">
+                <div id="emptwo" class="container pull-out-container black-on-white">
                     <div class="row">
                         <i class="fa fa-times fa-2x" style="position: absolute; top: 3%; right: 2%;" aria-hidden="true"></i>
                     </div>
                     <div class="row">
 
                         <div class="col-sm-4">
-                            <p>NAME OF EMPLOYEE</p>
+                            <h2>Dori Mouawad</h2>
+                            <p>Dori Mouawad is a UCI alum with many years of experience in developing mobile applications under his belt. An expert in both native Android, and iOS development, he has worked on an array of different projects during his time with IntelliSkye. Some of the different types of projects he has completed range from a mobile side scroller game, to an application to help educate those most at risk of the dangers of human traffiking and how to avoid becoming a victim. He has honed his skills in the design and development of mobile applications is constantly at the forefront of creating new and exciting applications.</p>
                         </div>
-                        <div class="col-sm-8">
+                        <div class="col-sm-4">
                             <img src="/images/nick.jpg" class="employee-photo-sm">
+                        </div>
+                        <div class="col-sm-4">
+                            <h2>Skills</h2>
+                            {{--line graph with skills--}}
+                            <h5>iOS / Android</h5>
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%;">
+                                    <span class="sr-only">80% Complete</span>
+                                </div>
+                            </div>
+                            <h5>WEB DEVELOPMENT</h5>
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100" style="width: 95%;">
+                                    <span class="sr-only">95% Complete</span>
+                                </div>
+                            </div>
+
+                            <h5>DATABASES</h5>
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
+                                    <span class="sr-only">60% Complete</span>
+                                </div>
+                            </div>
+
+                            {{--end line graph--}}
                         </div>
                     </div>
                 </div>
                 {{--EMPLOYEE THREE--}}
-                <div id="empthree" class="container pull-out-container">
+                <div id="empthree" class="container pull-out-container black-on-white">
                     <div class="row">
                         <i class="fa fa-times fa-2x" style="position: absolute; top: 3%; right: 2%;" aria-hidden="true"></i>
                     </div>
                     <div class="row">
-
                         <div class="col-sm-4">
-                            <p>NAME OF EMPLOYEE</p>
+                            <h2>Dori Mouawad</h2>
+                            <p>Dori Mouawad is a UCI alum with many years of experience in developing mobile applications under his belt. An expert in both native Android, and iOS development, he has worked on an array of different projects during his time with IntelliSkye. Some of the different types of projects he has completed range from a mobile side scroller game, to an application to help educate those most at risk of the dangers of human traffiking and how to avoid becoming a victim. He has honed his skills in the design and development of mobile applications is constantly at the forefront of creating new and exciting applications.</p>
                         </div>
-                        <div class="col-sm-8">
+                        <div class="col-sm-4">
                             <img src="/images/steveo.jpg" class="employee-photo-sm">
+                        </div>
+                        <div class="col-sm-4">
+                            <h2>Skills</h2>
+                            <h5>GRAPHICS</h5>
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 100%;">
+                                    <span class="sr-only">100% Complete</span>
+                                </div>
+                            </div>
+                            {{--line graph with skills--}}
                         </div>
                     </div>
                 </div>
@@ -178,77 +240,133 @@
     </div>
 
 </div>
-<div class="project-section row crystals black-on-white hidden">
+<div class="project-section row crystals black-on-white">
     <div class="col-xs-12">
-        <div class="about__block--container shadowdiv" id="projects">
-            <div class="about__block container-fluid">
-                <div class="content__block col-xs-12" data-aos="fade-up" data-aos-delay="300">
-                    <div class="row">
-                        <div id="myCarousel" class="carousel slide" data-ride="carousel">
-                            <!-- Indicators -->
-                            <ol class="carousel-indicators">
-                                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-                                <li data-target="#myCarousel" data-slide-to="1"></li>
-                                <li data-target="#myCarousel" data-slide-to="2"></li>
-                            </ol>
 
-                            <!-- Wrapper for slides -->
-                            <div class="carousel-inner">
-                                <div class="item active">
-                                    <div class="row">
-                                        <div class="row">
-                                            <div class="col-xs-4">
-                                                <h2>SweatBid</h2>
-                                                <img src="/images/sweatbid.png" alt="">
-                                            </div>
-                                            <div class="col-xs-4">
-                                                <h2>Celebrities Squared</h2>
-                                                <img src="/images/cs-icon-1024.png" alt="">
-                                            </div>
-                                            <div class="col-xs-4">
-                                                <h2>Flippy's Flight</h2>
-                                                <img src="/images/flippys1024.png" alt="">
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
+            <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                <!-- Indicators -->
+                <ol class="carousel-indicators">
+                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#myCarousel" data-slide-to="1"></li>
+                    <li data-target="#myCarousel" data-slide-to="2"></li>
+                </ol>
 
-                                <div class="item">
-                                    <div class="row">
-                                        <div class="row">
-                                            <div class="col-xs-4">
-                                                <h2>SweatBid</h2>
-                                                <img src="/images/sweatbid.png" alt="">
-                                            </div>
-                                            <div class="col-xs-4">
-                                                <h2>Celebrities Squared</h2>
-                                                <img src="/images/cs-icon-1024.png" alt="">
-                                            </div>
-                                            <div class="col-xs-4">
-                                                <h2>Flippy's Flight</h2>
-                                                <img src="/images/flippys1024.png" alt="">
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                
+                <!-- Wrapper for slides -->
+                <div class="carousel-inner">
+                    <div class="item active">
+                        <div class="row">
+                            <div class="col-xs-2">
+                                <img src="/images/icon/Androidicon.png" class="skillsicon" alt="">
                             </div>
-
-                            <!-- Left and right controls -->
-                            <a class="left carousel-control" href="#myCarousel" data-slide="prev">
-                                <span class="glyphicon glyphicon-chevron-left"></span>
-                                <span class="sr-only">Previous</span>
-                            </a>
-                            <a class="right carousel-control" href="#myCarousel" data-slide="next">
-                                <span class="glyphicon glyphicon-chevron-right"></span>
-                                <span class="sr-only">Next</span>
-                            </a>
+                            <div class="col-xs-2">
+                                <img src="/images/icon/appleicon.png" alt="">
+                            </div>
+                            <div class="col-xs-2">
+                                <img src="/images/icon/awsicon.png" alt="">
+                            </div>
+                            <div class="col-xs-2">
+                                <img src="/images/icon/Androidicon.png" alt="">
+                            </div>
+                            <div class="col-xs-2">
+                                <img src="/images/icon/Androidicon.png" alt="">
+                            </div>
+                            <div class="col-xs-2">
+                                <img src="/images/icon/Androidicon.png" alt="">
+                            </div>
                         </div>
                     </div>
+
+                    <div class="item">
+                        <img src="chicago.jpg" alt="Chicago" style="width:100%;">
+                    </div>
+
+                    <div class="item">
+                        <img src="ny.jpg" alt="New york" style="width:100%;">
+                    </div>
                 </div>
+
+                <!-- Left and right controls -->
+                <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right"></span>
+                    <span class="sr-only">Next</span>
+                </a>
             </div>
-        </div>
+
+
+
+        {{--<div class="about__block--container shadowdiv hidden" id="projects">--}}
+            {{--<div class="about__block container-fluid">--}}
+                {{--<div class="content__block col-xs-12" data-aos="fade-up" data-aos-delay="300">--}}
+                    {{--<div class="row">--}}
+                        {{--<div id="myCarousel" class="carousel slide" data-ride="carousel">--}}
+                            {{--<!-- Indicators -->--}}
+                            {{--<ol class="carousel-indicators">--}}
+                                {{--<li data-target="#myCarousel" data-slide-to="0" class="active"></li>--}}
+                                {{--<li data-target="#myCarousel" data-slide-to="1"></li>--}}
+                                {{--<li data-target="#myCarousel" data-slide-to="2"></li>--}}
+                            {{--</ol>--}}
+
+                            {{--<!-- Wrapper for slides -->--}}
+                            {{--<div class="carousel-inner">--}}
+                                {{--<div class="item active">--}}
+                                    {{--<div class="row">--}}
+                                        {{--<div class="row">--}}
+                                            {{--<div class="col-xs-4">--}}
+                                                {{--<h2>SweatBid</h2>--}}
+                                                {{--<img src="/images/sweatbid.png" alt="">--}}
+                                            {{--</div>--}}
+                                            {{--<div class="col-xs-4">--}}
+                                                {{--<h2>Celebrities Squared</h2>--}}
+                                                {{--<img src="/images/cs-icon-1024.png" alt="">--}}
+                                            {{--</div>--}}
+                                            {{--<div class="col-xs-4">--}}
+                                                {{--<h2>Flippy's Flight</h2>--}}
+                                                {{--<img src="/images/flippys1024.png" alt="">--}}
+                                            {{--</div>--}}
+                                        {{--</div>--}}
+                                    {{--</div>--}}
+                                {{--</div>--}}
+
+                                {{--<div class="item">--}}
+                                    {{--<div class="row">--}}
+                                        {{--<div class="row">--}}
+                                            {{--<div class="col-xs-4">--}}
+                                                {{--<h2>SweatBid</h2>--}}
+                                                {{--<img src="/images/sweatbid.png" alt="">--}}
+                                            {{--</div>--}}
+                                            {{--<div class="col-xs-4">--}}
+                                                {{--<h2>Celebrities Squared</h2>--}}
+                                                {{--<img src="/images/cs-icon-1024.png" alt="">--}}
+                                            {{--</div>--}}
+                                            {{--<div class="col-xs-4">--}}
+                                                {{--<h2>Flippy's Flight</h2>--}}
+                                                {{--<img src="/images/flippys1024.png" alt="">--}}
+                                            {{--</div>--}}
+                                        {{--</div>--}}
+                                    {{--</div>--}}
+                                {{--</div>--}}
+
+                                {{----}}
+                            {{--</div>--}}
+
+                            {{--<!-- Left and right controls -->--}}
+                            {{--<a class="left carousel-control" href="#myCarousel" data-slide="prev">--}}
+                                {{--<span class="glyphicon glyphicon-chevron-left"></span>--}}
+                                {{--<span class="sr-only">Previous</span>--}}
+                            {{--</a>--}}
+                            {{--<a class="right carousel-control" href="#myCarousel" data-slide="next">--}}
+                                {{--<span class="glyphicon glyphicon-chevron-right"></span>--}}
+                                {{--<span class="sr-only">Next</span>--}}
+                            {{--</a>--}}
+                        {{--</div>--}}
+                    {{--</div>--}}
+                {{--</div>--}}
+            {{--</div>--}}
+        {{--</div>--}}
     </div>
 </div>
         <div class="parallax parafour">

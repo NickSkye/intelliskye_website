@@ -443,9 +443,14 @@ footer:hover {
           transform: translate(-50%, -50%);
 }
 
+.black-on-white {
+  background-color: white !important;
+}
+
 .black-on-white h2,
+.black-on-white h5,
 .black-on-white p {
-  color: black;
+  color: black !important;
 }
 
 header {
@@ -758,6 +763,17 @@ header .menu__toggle span.bottom {
   width: 0;
 }
 
+.progress {
+  height: 16px;
+  margin-bottom: 20px;
+  overflow: hidden;
+  background-color: white;
+  border-radius: 0px;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  border: 3px solid black;
+}
+
 #empone {
   -webkit-transition: 1s -webkit-transform ease-in-out;
   transition: 1s -webkit-transform ease-in-out;
@@ -935,8 +951,13 @@ header .menu__toggle span.bottom {
 .button:hover {
   border-top: 3px solid black;
   border-bottom: 3px solid black;
-  color: white;
+  color: white !important;
   background-color: black;
+}
+
+.skillsicon {
+  width: 100%;
+  height: auto;
 }
 
 #contactform {
