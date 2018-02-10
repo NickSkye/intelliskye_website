@@ -401,6 +401,12 @@ footer:hover {
   min-height: 800px;
 }
 
+@media (max-width: 767px) {
+  .parallax {
+    background-attachment: unset;
+  }
+}
+
 .bottom-left {
   position: absolute;
   bottom: 8px;

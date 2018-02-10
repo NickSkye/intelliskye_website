@@ -436,6 +436,9 @@ footer:hover {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    @media (max-width: 767px){
+        background-attachment: unset;
+    }
 }
 
 .bottom-left {
