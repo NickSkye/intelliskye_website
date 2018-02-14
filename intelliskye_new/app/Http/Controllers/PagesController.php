@@ -34,18 +34,18 @@ public function showAboutCrystal(){
 
     public function contactform(Request $request){
         $this->validate($request, [
-            'firstname' => 'required',
-            'lastname' => 'required',
+            'name' => 'required',
+
             'email' => 'required|email',
-            'phone' => 'required'
+
         ]);
 
 
         $data = array(
-            'firstname' => $request->firstname,
-            'lastname' => $request->lastname,
+            'name' => $request->name,
+
             'email' => $request->email,
-            'phone' => $request->phone,
+
 
 
         );
