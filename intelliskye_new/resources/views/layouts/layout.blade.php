@@ -35,11 +35,13 @@
     @if(Request::is('/'))
         {{--DO SOMETHING--}}
     @endif
-    @include('partials.home-header')
+
     <body >
+        @include('partials.home-header')
         {{--@include('partials.logincart')--}}
         @yield('content')
+        <footer > @include('partials.footer')</footer>
     </body>
-    <footer > @include('partials.footer')</footer>
+
 
 </html>
