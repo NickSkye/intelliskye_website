@@ -1,6 +1,6 @@
 <!doctype html>
 <html lang="{{ app()->getLocale() }}">
-    <head >
+    <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -36,11 +36,13 @@
         {{--DO SOMETHING--}}
     @endif
 
-    <body >
+    <body>
         @include('partials.home-header')
         {{--@include('partials.logincart')--}}
-        @yield('content')
-        <footer > @include('partials.footer')</footer>
+        <main>
+            @yield('content')
+        </main>
+        <footer> @include('partials.footer')</footer>
     </body>
 
 
